@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/plan"
+    android:background="#ffffff">
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/planWeb"
+        android:layout_gravity="center"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:background="#ffffff"
+        android:scrollbars="none" />
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/popupButton"
+        android:background="@drawable/floating_button"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="25dp"
+        android:padding="20dp"
+        android:src="@drawable/search"
+        android:scaleType="fitCenter"/>
+</FrameLayout>

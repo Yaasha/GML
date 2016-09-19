@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rozvrhLayout"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rozvrh"
+        android:focusable="false"
+        android:focusableInTouchMode="true"
+        android:layout_gravity="center"
+        android:scaleType="matrix"
+        android:background="#ffffff" />
+
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/popupButton"
+        android:background="@drawable/floating_button"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="25dp"
+        android:textColor="#ffffff"
+        android:text="třída"
+        android:textSize="18dp"/>
+
+</FrameLayout>

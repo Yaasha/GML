@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Suplování" >
+    <CheckBoxPreference
+        android:title="Rozdělit okna"
+        android:key="suplovaniDivide"
+        android:defaultValue="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Rozvrh hodin" >
+        <CheckBoxPreference
+            android:title="Označit aktuální hodinu"
+            android:key="rozvrhHighlight"
+            android:defaultValue="true"/>
+        <ListPreference
+            android:dependency="rozvrhHighlight"
+            android:key="rozvrhColor"
+            android:title="Barva označení"
+            android:dialogTitle="Barva označení"
+            android:entries="@array/colors"
+            android:entryValues="@array/numbers"
+            android:defaultValue="0"
+            android:negativeButtonText="Zrušit"/>
+        <CheckBoxPreference
+            android:title="Zobrazit tlačítko"
+            android:key="rozvrhButton"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Plán školy" >
+    <CheckBoxPreference
+        android:title="Povolit vyhledávání"
+        android:key="planButton"
+        android:defaultValue="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Ostatní" >
+        <Preference
+            android:title="O aplikaci"
+            android:key="about" />
+    </PreferenceCategory>
+</PreferenceScreen>

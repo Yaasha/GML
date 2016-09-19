@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GML</string>
+
+    <string-array name="tridy">
+        <item>1A</item>
+        <item>1B</item>
+        <item>1C</item>
+        <item>2A</item>
+        <item>2B</item>
+        <item>2C</item>
+        <item>3A</item>
+        <item>3B</item>
+        <item>3C</item>
+        <item>4A</item>
+        <item>4B</item>
+        <item>1AF</item>
+        <item>2AF</item>
+        <item>2BF</item>
+        <item>3AF</item>
+        <item>4AF</item>
+        <item>4BF</item>
+        <item>5AF</item>
+        <item>6AF</item>
+        <item>6BF</item>
+        <item>1AV</item>
+        <item>2AV</item>
+        <item>3AV</item>
+        <item>4AV</item>
+        <item>5AV</item>
+        <item>6AV</item>
+        <item>7AV</item>
+        <item>8AV</item>
+    </string-array>
+
+    <string-array name="colors">
+        <item>Červená</item>
+        <item>Oranžová</item>
+        <item>Modrá</item>
+        <item>Žlutá</item>
+        <item>Zelená</item>
+        <item>Bílá</item>
+        <item>Černá</item>
+    </string-array>
+
+    <string-array name="numbers">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+</resources>
