@@ -4,12 +4,7 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <WebView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/supl" />
-
-    <Button
+    <!--<Button
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:id="@+id/popupSupl"
@@ -19,5 +14,14 @@
         android:textColor="#ffffff"
         android:textSize="15sp"
         android:text="Vybrat den"/>
+        -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txt"/>
+    </ScrollView>
 
 </FrameLayout>
